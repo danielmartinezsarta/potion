@@ -4,9 +4,9 @@ Scalable Cloud based ERP for all size of companies.
 
 ## Dependencies
 
-- Elixir 1.10.3
-- Phoenix 1.5.6
-- PosgreSQL 12
+- Elixir 1.14.1
+- Phoenix 1.6.15
+- PosgreSQL 15
 
 ## Run instructions
 

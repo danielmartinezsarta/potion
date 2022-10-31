@@ -9,7 +9,7 @@ defmodule Potion.MixProject do
       config_path: "../../config/config.exs",
       deps_path: "../../deps",
       lockfile: "../../mix.lock",
-      elixir: "~> 1.7",
+      elixir: "~> 1.12",
       elixirc_paths: elixirc_paths(Mix.env()),
       start_permanent: Mix.env() == :prod,
       aliases: aliases(),
@@ -37,9 +37,10 @@ defmodule Potion.MixProject do
   defp deps do
     [
       {:phoenix_pubsub, "~> 2.0"},
-      {:ecto_sql, "~> 3.4"},
+      {:ecto_sql, "~> 3.6"},
       {:postgrex, ">= 0.0.0"},
-      {:jason, "~> 1.0"}
+      {:jason, "~> 1.2"},
+      {:swoosh, "~> 1.3"}
     ]
   end
 
